@@ -1,0 +1,89 @@
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.DadosPessoais, .conteudo {
+    margin: 1px auto;
+    width: 700px;
+}
+
+
+.DadosPessoais{
+    white-space:pre-line;
+}
+
+.estrutura-texto, .conteudo{
+  text-align: justify;
+}
+
+.estrutura-texto-centralizar{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:hover{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.text-divider.gradient-line {
+    position: relative;
+  }
+  
+  .text-divider.gradient-line::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #2630e0, #27f153); /* Cores do gradiente */
+  }
+  
+ 
+  
+
+
+  .menu {
+    background-color: #2a33ac;
+    padding: 10px;
+   }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+    
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+  }
+  
+  .menu a:hover {
+    color: #cb1c1c;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
